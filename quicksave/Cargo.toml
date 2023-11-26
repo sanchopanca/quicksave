@@ -1,0 +1,14 @@
+[package]
+name = "quicksave"
+version = "0.1.0"
+edition = "2021"
+authors = ["Aleksandr Kovalev <aleksandr@kovalev.engineer>"]
+description = "an orm"
+readme = "../README.md"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/sanchopanca/quicksave"
+
+
+[dependencies]
+rustyline = "12.0.0"
+quicksave_macros = { path = "../quicksave_macros" }

@@ -1,0 +1,17 @@
+[package]
+name = "quicksave_macros"
+version = "0.1.0"
+edition = "2021"
+authors = ["Aleksandr Kovalev <aleksandr@kovalev.engineer>"]
+description = "an orm"
+readme = "../README.md"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/sanchopanca/quicksave"
+
+[dependencies]
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = { version = "2.0", features = ["full"] }
+
+[lib]
+proc-macro = true
